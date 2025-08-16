@@ -101,17 +101,10 @@ If you want to start both backend and frontend together:
 
 ***
 
-## Notes
-
-- Add `.env` and `node_modules/` to `.gitignore`
-- Use `nodemon` for backend auto-reload, React dev server for frontend reload
-- For MongoDB Compass, connect to `mongodb://localhost:27017` for full data viewing
-- For cloud/Atlas, share your `.env.example` (not real creds) for collaborators
-
-***
 
 
 ## Author
 
 Satyam Kumar 
+
 GitHub: https://github.com/satyamkumar052
