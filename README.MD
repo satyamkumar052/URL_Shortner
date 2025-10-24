@@ -11,7 +11,7 @@ This project allows users to generate short URLs for any valid link, and redirec
 - Instant redirect with a single click
 - REST API with Express and MongoDB
 - React frontend (hot reload)
-- Works with local MongoDB
+- Works with local MongoDB.
 
 
 
