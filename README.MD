@@ -3,7 +3,7 @@
 A simple URL shortener built with the **MERN stack** (MongoDB, Express, React, Node.js).
 
 This project allows users to generate short URLs for any valid link, and redirect back to the original destination. You can use a local MongoDB database with **MongoDB Compass** 
-***
+
 
 ## Features
 
@@ -13,7 +13,7 @@ This project allows users to generate short URLs for any valid link, and redirec
 - React frontend (hot reload)
 - Works with local MongoDB
 
-***
+
 
 ## Project Structure
 
@@ -25,14 +25,14 @@ url-shortener/
  └── README.md
 ```
 
-***
+
 
 ## Prerequisites
 
 - Node.js and npm installed
 - MongoDB installed **locally** (for MongoDB Compass usage)
 
-***
+
 
 ## Local Setup (Use with MongoDB Compass)
 
@@ -65,7 +65,7 @@ url-shortener/
    ```
    Runs at: `http://localhost:3000`
 
-***
+
 
 ## Running Both Servers with One Command
 
@@ -88,7 +88,7 @@ If you want to start both backend and frontend together:
    npm run dev
    ```
 
-***
+
 
 ## API Endpoints
 
@@ -99,7 +99,7 @@ If you want to start both backend and frontend together:
 - **GET** `/:shortId`  
   Redirects to the long/original URL.
 
-***
+
 
 
 
