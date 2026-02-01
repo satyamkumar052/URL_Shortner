@@ -36,57 +36,28 @@ url-shortener/
 
 ## Local Setup (Use with MongoDB Compass)
 
-1. **Clone the repository**
-   ```
-   git clone https://github.com/satyamkumar052/URL_Shortner.git
-   cd url-shortener
-   ```
-
-2. **Install backend dependencies**
+1. **Install backend dependencies**
    ```
    cd server
    npm install
    ```
 
-3. **Start your local MongoDB server**  
+2. **Start your local MongoDB server**  
    (If you want to view/edit, open with MongoDB Compass.)
 
-4. **Start the backend server**
+3. **Start the backend server**
    ```
    nodemon index.js
    ```
    Runs at: `http://localhost:5000`
 
-5. **Open a new terminal and install frontend dependencies**
+4. **Open a new terminal and install frontend dependencies**
    ```
    cd ../client
    npm install
    npm start
    ```
    Runs at: `http://localhost:3000`
-
-
-
-## Running Both Servers with One Command
-
-If you want to start both backend and frontend together:
-
-1. **At the root (where `client/` and `server/` are):**
-   ```
-   npm install concurrently --save-dev
-   ```
-
-2. **Add this script to your root `package.json`:**
-   ```
-   "scripts": {
-     "dev": "concurrently \"cd server && nodemon index.js\" \"cd client && npm start\""
-   }
-   ```
-
-3. **Now run:**
-   ```
-   npm run dev
-   ```
 
 
 
@@ -100,11 +71,7 @@ If you want to start both backend and frontend together:
   Redirects to the long/original URL.
 
 
-
-
-
 ## Author
 
 Satyam Kumar 
 
-GitHub: https://github.com/satyamkumar052
