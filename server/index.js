@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Connect to MongoDB Atlas
+// Connect to local mongodb
 mongoose.connect('mongodb://localhost:27017/urlShortener', {
   useNewUrlParser: true,
   useUnifiedTopology: true
