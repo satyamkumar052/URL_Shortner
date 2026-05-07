@@ -22,8 +22,13 @@ function generateShortId() {
 }
 
 app.post('/api/shorten', async (req, res) => {
+
   const { originalUrl } = req.body;
+
+  if (!originalUrl) return res.status(400).json({ error: "URL is required" })
+
   const shortId = generateShortId();
+
   await URL.create({ shortId, redirectURL: originalUrl });
   res.json({ shortUrl: `http://localhost:5000/${shortId}` });
 });
